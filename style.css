@@ -1,0 +1,82 @@
+
+a:link {
+    font-family: Hero, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.nav {
+    background: #1F2937;
+    height: 100px;
+    font-family: Hero, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #f9FAf8;
+}
+
+.logo {
+    font-family: Hero, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #f9FAf8;
+}
+
+.links {
+    font-family: Hero, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.container-one {
+    background: #1F2937;
+    height: 500px;
+    font-family: Hero, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 48px;
+    color: #f9FAf8;
+  }
+
+.container-two {
+    background: #ffffff;
+    height: 500px;
+  }
+
+.container-three {
+    background: #e5e7eb;
+    height: 400px;
+
+  }
+
+.container-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    height: 400px;
+  }
+  
+.box {
+    border-radius: 3px;
+    background: #3882f6;
+    font-weight: bold;
+    text-align: center;
+    width: 75%;
+    height: fit-content;
+    
+  }
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    height: 50px;
+    font-family: Hero, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #f9FAf8;    
+}
+.action {
+    font-family: Hero, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #f9FAf8;    
+}  
