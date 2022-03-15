@@ -39,14 +39,24 @@ a, a:hover, a:visited, a:active {
   display: flex;
 }
 
-.maintext {
+.container2 {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.container4 {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.main-text1 {
   font-size: 48px;
   font-family: Hero, Helvetica, sans-serif;
   font-weight: 900;
   color: #e5e7eb;
 }
 
-.secondarytext{
+.secondary-text1{
   font-size: 18px;
   font-family: Hero, Helvetica, sans-serif;
   color: #e5e7eb;
