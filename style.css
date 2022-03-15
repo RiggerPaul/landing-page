@@ -1,82 +1,60 @@
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
 
-a:link {
-    font-family: Hero, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-}
-.nav {
-    background: #1F2937;
-    height: 100px;
-    font-family: Hero, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #f9FAf8;
+.header {
+  background-color: #1f2937;
+  display: flex;
 }
 
 .logo {
-    font-family: Hero, Helvetica, sans-serif;
-    font-size: 24px;
-    color: #f9FAf8;
+  font-size: 24px;
+  font-family: Hero, Helvetica, sans-serif;
+  font: 900;
+  color: #f9faf8;
 }
 
-.links {
-    font-family: Hero, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #e5e7eb;
-
+.link {
+  font-size: 18px;
+  font-family: Hero, Helvetica, sans-serif;
+  color: #e5e7eb;
+  margin-left: 15px;
+  padding-right: 5px;
+  text-decoration: none;
 }
 
-.container-one {
-    background: #1F2937;
-    height: 500px;
-    font-family: Hero, Helvetica, sans-serif;
-    font-weight: 1000;
-    font-size: 48px;
-    color: #f9FAf8;
-  }
-
-.container-two {
-    background: #ffffff;
-    height: 500px;
-  }
-
-.container-three {
-    background: #e5e7eb;
-    height: 400px;
-
-  }
-
-.container-four {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-    height: 400px;
-  }
-  
-.box {
-    border-radius: 3px;
-    background: #3882f6;
-    font-weight: bold;
-    text-align: center;
-    width: 75%;
-    height: fit-content;
-    
-  }
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #1F2937;
-    height: 50px;
-    font-family: Hero, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 12px;
-    color: #f9FAf8;    
+.push
+{
+  font-size: 18px;
+  font-family: Hero, Helvetica, sans-serif;
+  color: #e5e7eb;
+  margin-left: auto;
+  padding-right: 5px;
+  text-decoration: none;
 }
-.action {
-    font-family: Hero, Helvetica, sans-serif;
-    font-weight: 900;
-    font-size: 36px;
-    color: #f9FAf8;    
-}  
+
+.container1 {
+  background-color: #1f2937;
+  display: flex;
+}
+
+.maintext {
+  font-size: 48px;
+  font-family: Hero, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #e5e7eb;
+}
+
+.secondarytext{
+  font-size: 18px;
+  font-family: Hero, Helvetica, sans-serif;
+  color: #e5e7eb;
+}
+
+.button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-family: Hero, Helvetica, sans-serif;
+  color: #e5e7eb;
+}
