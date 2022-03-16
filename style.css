@@ -44,21 +44,94 @@ a, a:hover, a:visited, a:active {
   display: flex;
 } 
 
-.container2 {
+ .container2 {
   background-color: white;
-  height: 300px;
+  /*height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 .row1 {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;     
+  background-color: white;
+  height: 300%;
+  padding: 7px;
+  padding-top: 15px;
+  gap: 5px;
+}
+
+.row1 > div{
+  background: white;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.item1 { 
+  /* flex:0 1 auto; */
+  align-self: center;
+}
+          
+.item2 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+          
+.item3 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+          
+.item4 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+
+.item5 { 
+  /* flex:0 1 auto; */
+  align-self: center;
+}
+          
+.item6 { 
+  /* flex:0 1 auto; */
+  align-self: center;
+}
+          
+.item7 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+          
+.item8 { 
+  /* flex:0 1 auto; */
+  align-self:center;
 }
 
 .row2 {
-  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-family: Hero, Helvetica, sans-serif;
+  font: 100;
+  color: #1f2937;     
+  background-color: white;
+  height: 300%;
+  /*padding: 15px;*/
+  gap: 5px;
+}
+
+.row2 > div{
+  background: white;
+  width: 100px;
+  height: 100px;
+  /*border: 2px solid #3882f6;
+  border-radius: 10px;
+  padding: 1px;*/
+
 }
 
 .container3 {
@@ -131,6 +204,7 @@ a, a:hover, a:visited, a:active {
   font-family: Hero, Helvetica, sans-serif;
   font-weight: 900;
   color: #1f2937;
+  align-items: center;
 }
 
 .secondary-text1{
@@ -154,7 +228,7 @@ a, a:hover, a:visited, a:active {
 
 
 
-.push-right
+/*.push-right
 {
   margin-left: auto;
   padding-right: 5px;
@@ -164,8 +238,27 @@ a, a:hover, a:visited, a:active {
   max-width: 100%;
     background-color: #1f2937;
   height: 400px;
+}*/
+
+
+.item1 { 
+  /* flex:0 1 auto; */
+  align-self: center;
 }
-
-
-
+          
+.item2 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+          
+.item3 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+          
+.item4 { 
+  /* flex:0 1 auto; */
+  align-self:center;
+}
+      
 
